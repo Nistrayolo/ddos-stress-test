@@ -56,5 +56,9 @@
       "email": "martin@lazarov.bg"
     }
   ],
-  "directories": {}
+  "directories": {},
+  "scripts": {
+    "start": "node node.js",
+    "server": "node server.js"
+  }
 }
