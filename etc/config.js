@@ -9,10 +9,10 @@
 var config = {};
 
 // Master server host and port
-config.server = 'localhost';
-config.port = 5004;
+config.server = process.env.NODE_APP_HOST || 'localhost';
+config.port = process.env.NODE_APP_PORT || 5004;
 
-
+console.log(config);
 /**
  * Expose `config`
 */
