@@ -23,7 +23,8 @@ var nodesCount = 0;
 var activeNodes = [];
 var stats = {
         errors: 0,
-        success: 0
+        success: 0,
+        time: -1
     };
 
 
@@ -56,7 +57,7 @@ server.listen(config.port);
 
 
 /**
- *  
+ *
  */
 var app = connect();
 
@@ -101,4 +102,3 @@ app.use('/stats', function (req, res, next) {
  * Start the Web Server
  */
 http.createServer(app).listen(3000)
-
