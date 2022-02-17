@@ -46,6 +46,7 @@ Open your browser and point it to the server (where server.js is started) IP and
 
 http://localhost:3000/
 
+https://heroku.com/deploy
 
 Watch the video to see the DDoS Stress App in action:
 
